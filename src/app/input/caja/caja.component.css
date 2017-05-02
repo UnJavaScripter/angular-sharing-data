@@ -1,0 +1,10 @@
+.caja {
+  padding: 20px;
+  font-size: 24px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

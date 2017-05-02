@@ -1,0 +1,12 @@
+.cajota {
+  padding: 20px;
+  font-size: 24px;
+  width: 550px;
+  height: 550px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  color: white;
+  background-color: slategray;
+  border: 1px solid grey;
+}

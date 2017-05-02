@@ -1,3 +1,26 @@
-<h1>
-  {{title}}
-</h1>
+<nav>
+  <ul>
+    <li>
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+    </li>
+    <li>
+      <a routerLink="/input" routerLinkActive="active">@Input</a>
+    </li>
+    <li>
+      <a routerLink="/ngOnChanges" routerLinkActive="active">ngOnChanges</a>
+    </li>
+    <li>
+      <a routerLink="/output" routerLinkActive="active">@Output</a>
+    </li>
+    <li>
+      <a routerLink="/variableLocal" routerLinkActive="active">Variable Local</a>
+    </li>
+    <li>
+      <a routerLink="/viewChild" routerLinkActive="active">View Child</a>
+    </li>
+    <li>
+      <a routerLink="/service" routerLinkActive="active">Service</a>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
