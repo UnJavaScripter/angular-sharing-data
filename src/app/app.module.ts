@@ -17,6 +17,10 @@ import { OutputComponent } from './output/output.component';
 import { VariableLocalComponent } from './variable-local/variable-local.component';
 import { ConsoleadorComponent } from './variable-local/consoleador/consoleador.component';
 import { ViewChildComponent } from './view-child/view-child.component';
+import { ElServicioDeLaFamiliaService } from './service/el-servicio-de-la-familia.service';
+import { PadreComponent } from './service/padre/padre.component';
+import { HijoComponent } from './service/hijo/hijo.component';
+import { NietoComponent } from './service/nieto/nieto.component';
 // import { BlaComponent } from './input/bla/bla.component';
 // import { CarritoComponent } from './input/carrito/carrito.component';
 // import { AjaComponent } from './input/aja/aja.component';
@@ -35,6 +39,9 @@ import { ViewChildComponent } from './view-child/view-child.component';
     VariableLocalComponent,
     ConsoleadorComponent,
     ViewChildComponent,
+    PadreComponent,
+    HijoComponent,
+    NietoComponent,
     // BlaComponent,
     // CarritoComponent,
     // AjaComponent
@@ -45,7 +52,7 @@ import { ViewChildComponent } from './view-child/view-child.component';
     HttpModule,
     RoutingModule
   ],
-  providers: [],
+  providers: [ElServicioDeLaFamiliaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
